@@ -8,6 +8,8 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <postStartupActivity implementation="com.github.diehuxx.gooseijplugin.PluginStartupActivity"/>
+        <toolWindow id="Goose" factoryClass="com.github.diehuxx.gooseijplugin.GooseToolWindowFactory"
+                    anchor="right" />
         <notificationGroup id="Goose Notifications" displayType="BALLOON"/>
     </extensions>
 
